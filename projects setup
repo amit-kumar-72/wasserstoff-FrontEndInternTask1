@@ -1,0 +1,60 @@
+# Real-Time Collaborative Text Editor
+
+This project is a **real-time collaborative text editor** built using **React**, **Tiptap**, **Yjs**, and **WebRTC**. It allows multiple users to edit the same document simultaneously with real-time synchronization, user attribution, and collaborative editing.
+
+## Features
+
+- **Real-Time Collaboration:** Multiple users can edit the same document at the same time.
+- **User Attribution:** Each user's edits are color-coded and displayed with their name.
+- **WebRTC Integration:** Uses **Yjs** and **WebRTC** to handle real-time collaboration and data synchronization.
+- **Avatar Support:** Users can upload an avatar during login to personalize their identity.
+- **Responsive Design:** The UI adapts across devices using Tailwind CSS for flexible, responsive layouts.
+
+## Tech Stack
+
+- **Frontend:**
+  - **React**: A JavaScript library for building user interfaces.
+  - **Tiptap**: A rich-text editor framework for building text editors in React.
+  - **Tailwind CSS**: A utility-first CSS framework for styling the application.
+  
+- **Real-Time Collaboration:**
+  - **Yjs**: A framework for building collaborative applications with real-time data synchronization.
+  - **WebRTC**: A protocol for peer-to-peer communication, enabling real-time syncing between users.
+  
+- **State Management:**
+  - **React Hooks**: Managing state using React's built-in hooks (`useState`, `useEffect`).
+
+- **Other Libraries:**
+  - **uuid**: For generating unique identifiers for users.
+
+## Installation Guide
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed. You can download it from [here](https://nodejs.org/).
+- **npm**: The Node.js package manager should be installed alongside Node.js.
+
+### Setup Instructions
+
+1. **Clone the Repository:**
+
+   Clone the repository to your local machine using Git:
+
+   ```bash
+   git clone <repository-url>
+
+Navigate to the Project Directory:
+cd texteditor
+
+Install Dependencies:
+
+npm install
+
+npm run dev 
+
+to project
+
+
+
